@@ -24,6 +24,7 @@
 
 *, *::before, *::after {
 	box-sizing: border-box;
+	-webkit-touch-callout: none;
 }
 
 html, body {
@@ -35,6 +36,7 @@ html, body {
 	color: #000;
 	user-select: none;
 	cursor: default;
+	-webkit-user-select: none;
 }
 
 main {
